@@ -1,0 +1,121 @@
+html,body,div,ul,li,a,img,h1,main,header,head{
+    margin: 0;
+    padding: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: #121214;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+}
+
+.menu_logo{
+    width: 229px;
+    height: 68px;
+    padding-top: 80px;
+}
+
+h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    padding: 5%;
+    padding-bottom: 53px;
+    line-height: 42px;
+    color: #fff; 
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+}
+
+.conteiner{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin: auto;
+    max-width: 700px;
+    border: solid 2px transparent;
+}
+
+li:hover img{
+    border: solid white 1px;
+    border-color: #fff;
+    background-color: #fff;
+    transition: 1.5s;
+}
+
+li:hover p{
+    border: transparent white 0px;
+    transition: 1.5s;
+    color: white;
+}
+
+button:hover{
+    border: solid white 1px;
+    background-color: white;
+    transition: 0.5s;
+    color: black;
+}
+
+img{
+    border-radius: 10%;
+    width: 160px;
+    height: 160px;
+    border: solid 2px transparent;
+    transition: 1.5s;      
+}
+    
+button{
+    width: 206px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    border: solid 2px white;
+    border-radius: 8px;
+    margin: 50px auto;
+    margin-top: 140px;
+    background-color: #121214;
+    color: #fff;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    gap: 14%;
+    height: 160px;
+    width: 160px;
+    align-items: flex-start;   
+}
+
+p{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    width: 101px;
+    height: 18px;
+    color: #9C9C9C;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px; 
+    padding-left: 31px; 
+}   
